@@ -1,0 +1,30 @@
+.navigation-items {
+	display: flex;
+	gap: 3.3rem;
+}
+
+li {
+	list-style-type: none;
+	line-height: 4.1rem;
+	border-bottom: 0.4rem solid transparent;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	/* border-bottom: 0.1rem solid 979797; */
+}
+
+a {
+	text-decoration: none;
+	color: #69707d;
+}
+
+li:hover {
+	border-bottom: 0.4rem solid #ff7e1b;
+	color: #1d2026;
+}
+
+ul > li {
+	font-size: 1.5rem;
+}
