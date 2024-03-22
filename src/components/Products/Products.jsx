@@ -3,10 +3,7 @@ import '../Products/Products.css';
 import { Link } from 'react-router-dom';
 // import data from '../../data/shoes.json';
 import { useSelector, useDispatch } from 'react-redux';
-import {
-	setProductSelected,
-	setProductListByCategory,
-} from '../../redux/product/productSlice';
+import { setProductSelected } from '../../redux/product/productSlice';
 
 function Products() {
 	// const [shoes, setShoes] = useState(data);
